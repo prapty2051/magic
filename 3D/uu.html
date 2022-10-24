@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+   
+   <p>Original Array: <b><span id="x"></span></b></p>
+   <p>Modified Array: <b><span id="y"></span></b></p>
+   
+   <script>
+      const myArray = ["Boston", "Austin", "Seattle", "Oakland", "Denver", "Berlin"];
+      document.getElementById("x").innerHTML = myArray;
+
+      myArray.splice(3, 0);
+      document.getElementById("y").innerHTML = myArray;
+   </script>
+   
+</body>
+</html>
